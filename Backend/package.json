@@ -1,0 +1,26 @@
+{
+  "name": "vehicle_rescue_system",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Project Overview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyansh0404/Vehicle-Rescue-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyansh0404/Vehicle-Rescue-System/issues"
+  },
+  "homepage": "https://github.com/priyansh0404/Vehicle-Rescue-System#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}

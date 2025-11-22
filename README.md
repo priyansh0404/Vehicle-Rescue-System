@@ -82,3 +82,22 @@ Socket.IO (Real-time engine)
 Database
 
 MongoDB Atlas (cloud)
+
+#Project Setup
+sos-vehicle/
+ ├── server/             # Node + Express backend
+ │     └── src/
+ │         ├── models/
+ │         ├── controllers/
+ │         ├── routes/
+ │         ├── middlewares/
+ │         ├── services/  # socket + geo utils
+ │         └── index.js
+ ├── client/             # React frontend
+ │     └── src/
+ │         ├── pages/
+ │         ├── components/
+ │         ├── hooks/
+ │         ├── services/
+ │         └── App.jsx
+ └── docs/               # Extra documents
