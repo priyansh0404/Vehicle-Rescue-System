@@ -26,7 +26,7 @@ const sosSchema = new mongoose.Schema({
     lng: { type: Number, required: true },
   },
   createdAt: {
-    type: Date,
+    type: Date, 
     default: Date.now,
   },
 });
