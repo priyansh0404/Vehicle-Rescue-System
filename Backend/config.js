@@ -1,0 +1,1 @@
+export const MONGO_URL = "mongodb+srv://priyanshusingh15101_db_user:xJGO3dvZGcR8b5bA@cluster0.pyviavs.mongodb.net/sosdb?appName=Cluster0"
