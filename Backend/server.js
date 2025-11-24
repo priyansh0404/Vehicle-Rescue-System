@@ -32,7 +32,7 @@ const sosSchema = new mongoose.Schema({
 });
 
 // This creates a "SOS" collection in MongoDB
-export const SOS = mongoose.model("SOS", sosSchema);
+export const SOS = mongoose.model("SOS", sosSchema); 
 
 const server = http.createServer(app); // Create a Node HTTP server using the Express app
 
