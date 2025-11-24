@@ -76,4 +76,14 @@ app.get("/", (req, res) => {
   res.send("SOS Mini Backend Running (ESM)"); // Respond with a short status string
 }); // End route
 
+app.get("/api/sos", async (req, res) => {
+  try {
+    const sosList = await SOS.find().sort({ createdAt: -1 }); // newest first
+    res.json(sosList);
+  } catch (err) {
+    res.status(500).json({ error: "Failed to fetch SOS requests" });
+  }
+});
+
+
 server.listen(5000, () => console.log("Server running on PORT 5000")); // Start listening on port 5000 and log when ready
