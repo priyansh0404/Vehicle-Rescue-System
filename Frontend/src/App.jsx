@@ -28,7 +28,7 @@ function App() {
     <div style={{ padding: 30 }}>
       <h1>SOS Mini Project</h1>
 
-      <button onClick={sendSOS}>🚨 Send SOS</button>
+      <button onClick={sendSOS}>Send SOS</button>
 
       <h2>Alerts:</h2>
       {messages.map((m, i) => (
