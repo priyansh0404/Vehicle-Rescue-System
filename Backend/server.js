@@ -7,10 +7,13 @@ import cors from "cors";
 import { MONGO_URL } from "./config.js";
 import sosRoutes from "./routes/sosRoutes.js";
 import { setupSocket } from "./socket.js";
+import authRoutes from "./routes/authRoutes.js";
+
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use("/api/auth", authRoutes);
 
 // Connect MongoDB
 mongoose.connect(MONGO_URL)
